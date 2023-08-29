@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && tsc --noEmit && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@sanity/astro": "1.2.0",
+    "@sanity/image-url": "1.0.2",
+    "astro": "2.10.13",
+    "astro-portabletext": "0.9.4",
+    "autoprefixer": "10.4.15",
+    "groq": "3.15.1",
+    "prettier-plugin-astro": "0.12.0"
+  },
+  "devDependencies": {
+    "@portabletext/types": "2.0.6",
+    "@sanity/types": "3.15.1",
+    "eslint": "8.47.0",
+    "prettier": "3.0.2",
+    "rimraf": "4.4.1",
+    "typescript": "5.1.6",
+    "vite": "4.4.9"
+  },
+  "engines": {
+    "node": ">= 16.12"
+  }
+}
